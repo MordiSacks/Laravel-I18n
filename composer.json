@@ -1,9 +1,9 @@
 {
     "name": "mordisacks/laravel-i18n",
-    "description": "like html5 local storage but for php.",
+    "description": "I18n Wrapper for Laravel 5.",
     "keywords": ["laravel", "i18n", "laravel localisation"],
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
         {
             "name": "Mordi Sacks"
