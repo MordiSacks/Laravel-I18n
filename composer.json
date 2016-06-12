@@ -3,7 +3,7 @@
     "description": "I18n Wrapper for Laravel 5.",
     "keywords": ["laravel", "i18n", "laravel localisation"],
     "license": "MIT",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
             "name": "Mordi Sacks"
@@ -16,7 +16,7 @@
         "illuminate/filesystem": "5.0.x|5.1.x|5.2.x",
         "phpdocumentor/reflection-docblock": "^2.0.4",
         "symfony/class-loader": "~2.3|~3.0",
-        "mordisacks/i18n": "1.0.2"
+        "mordisacks/i18n": "1.0.*"
     },
     "autoload": {
         "psr-4": {
