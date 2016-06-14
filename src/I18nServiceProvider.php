@@ -14,9 +14,9 @@ class I18nServiceProvider extends ServiceProvider
 			mkdir(resource_path('i18n'), 0755);
 		}
 
-		I18n::setDir(resource_path('i18n'));
+		I18n::$dir = resource_path('i18n');
 
-		I18n::setLocale(env('I18N'));
+		I18n::$locale = env('I18N');
 
 		\Blade::directive('lang', function ($expression)
 		{
