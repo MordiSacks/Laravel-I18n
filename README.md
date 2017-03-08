@@ -1,5 +1,5 @@
 # I18n
-This package is a Laravel 5.2 wrapper for [I18n](https://github.com/MordiSacks/I18n)
+This package is a Laravel wrapper for [I18n](https://github.com/MordiSacks/I18n)
 
 # Installation
 ```
@@ -12,10 +12,7 @@ MordiSacks\LaravelI18n\I18nServiceProvider::class,
 ```
 
 # Usage
-Set your default locale in .env file
-```
-I18N=he_IL
-```
+Set your default locale in app.php config  
 
 This package overrides blade `@lang`
 
@@ -23,3 +20,6 @@ So the following will work
 ```
 <h1>@lang('Hello :name', 'default', ['name' => 'Mordi'])</h1>
 ```
+
+# Changelog 2.1.0
+* Updated to laravel 5.4
