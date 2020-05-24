@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "laravel/framework": "5.4.*",
+    "laravel/framework": "^5.4|^6",
     "mordisacks/i18n": "2.0.*"
   },
   "autoload": {
